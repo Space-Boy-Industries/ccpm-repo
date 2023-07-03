@@ -1,0 +1,1 @@
+sbi https://raw.githubusercontent.com/Space-Boy-Industries/ccpt/main/repo.json
