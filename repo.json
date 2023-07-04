@@ -1,16 +1,26 @@
 {
-	"quarry": {
-		"plugins": ["files"],
-		"version": "3.6.4",
-		"files": [
-			["https://pastebin.com/raw/rpXRAZs4", "/usr/bin/quarry.lua"]
-		]
-	},
-	"cctracker": {
-		"plugins": ["files"],
-		"version": "1.0.0",
-		"files": [
-			["https://raw.githubusercontent.com/James-Dumas/cctracker/master/cctracker.lua", "/usr/bin/cctracker.lua"]
-		]
+	"name": "default",
+	"format": "v1",
+	"packages": {
+		"quarry": {
+			"version": "3.6.4",
+			"files": {
+				"bin": [
+					["https://pastebin.com/raw/rpXRAZs4", "quarry"]
+				],
+				"modules": [],
+				"config": []
+			}
+		},
+		"cctracker": {
+			"version": "1.0.0",
+			"files": {
+				"bin": [
+					["https://raw.githubusercontent.com/James-Dumas/cctracker/master/cctracker.lua", "cctracker"]
+				],
+				"modules": [],
+				"config": []
+			}
+		}
 	}
 }
